@@ -2172,6 +2172,7 @@ ul {
 
     .hero-benefits {
         grid-template-columns: 1fr;
+       display:none;
     }
 
     .hero-benefit {
