@@ -937,186 +937,7 @@ ul {
 }
 
 
-/* =====================================================
-   TABLET
-===================================================== */
 
-@media (max-width: 950px) {
-
-    .why-us {
-        padding: 90px 0;
-    }
-
-    .why-us-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .why-card {
-        min-height: 250px;
-    }
-
-    .why-card:nth-child(2) {
-        border-right: 0;
-    }
-
-    .why-card:nth-child(3),
-    .why-card:nth-child(4) {
-        border-top: 1px solid var(--border);
-    }
-
-}
-
-
-/* =====================================================
-   MOBILE
-===================================================== */
-
-@media (max-width: 700px) {
-
-    .why-us {
-        padding: 72px 0;
-    }
-
-    .why-us .container {
-        padding: 0 20px;
-    }
-
-
-    /* Header */
-
-    .why-us-header {
-        margin-bottom: 42px;
-        text-align: left;
-    }
-
-    .why-us-header .section-label {
-        margin-bottom: 14px;
-    }
-
-    .why-us-header h2 {
-        font-size: 34px;
-        line-height: 1.08;
-    }
-
-    .why-us-header p {
-        margin-top: 18px;
-
-        font-size: 15px;
-        line-height: 1.65;
-    }
-
-
-    /* 2 × 2 */
-
-    .why-us-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-
-        border: 0;
-    }
-
-
-    /* Cards */
-
-    .why-card {
-        min-height: 0;
-
-        padding: 24px 18px 28px;
-
-        border: 0 !important;
-        border-top: 1px solid var(--border) !important;
-        border-right: 1px solid var(--border) !important;
-    }
-
-    .why-card:nth-child(2n) {
-        border-right: 0 !important;
-    }
-
-    .why-card:nth-child(1),
-    .why-card:nth-child(2) {
-        border-top: 1px solid var(--border) !important;
-    }
-
-
-    /* Icons */
-
-    .why-card-icon {
-        width: 48px;
-        height: 48px;
-
-        margin-bottom: 20px;
-    }
-
-    .why-card-icon svg {
-        width: 21px;
-        height: 21px;
-    }
-
-
-    /* Numbers */
-
-    .why-card-number {
-        margin-bottom: 8px;
-
-        font-size: 9px;
-    }
-
-
-    /* Titles */
-
-    .why-card h3 {
-        margin-bottom: 9px;
-
-        font-size: 17px;
-    }
-
-
-    /* Text */
-
-    .why-card p {
-        max-width: none;
-
-        font-size: 13px;
-        line-height: 1.55;
-    }
-
-}
-
-
-/* =====================================================
-   SMALL MOBILE
-===================================================== */
-
-@media (max-width: 420px) {
-
-    .why-us {
-        padding: 64px 0;
-    }
-
-    .why-us .container {
-        padding: 0 16px;
-    }
-
-    .why-us-header h2 {
-        font-size: 31px;
-    }
-
-    .why-us-header p {
-        font-size: 14px;
-    }
-
-    .why-card {
-        padding: 22px 15px 25px;
-    }
-
-    .why-card h3 {
-        font-size: 16px;
-    }
-
-    .why-card p {
-        font-size: 12.5px;
-    }
-
-}
 
 /* =========================================================
    10. STATS
@@ -2376,7 +2197,186 @@ ul {
     }
 
 }
+/* =====================================================
+   TABLET
+===================================================== */
 
+@media (max-width: 950px) {
+
+    .why-us {
+        padding: 90px 0;
+    }
+
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-card {
+        min-height: 250px;
+    }
+
+    .why-card:nth-child(2) {
+        border-right: 0;
+    }
+
+    .why-card:nth-child(3),
+    .why-card:nth-child(4) {
+        border-top: 1px solid var(--border);
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+    .why-us {
+        padding: 72px 0;
+    }
+
+    .why-us .container {
+        padding: 0 20px;
+    }
+
+
+    /* Header */
+
+    .why-us-header {
+        margin-bottom: 42px;
+        text-align: left;
+    }
+
+    .why-us-header .section-label {
+        margin-bottom: 14px;
+    }
+
+    .why-us-header h2 {
+        font-size: 34px;
+        line-height: 1.08;
+    }
+
+    .why-us-header p {
+        margin-top: 18px;
+
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+
+    /* 2 × 2 */
+
+    .why-us-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        border: 0;
+    }
+
+
+    /* Cards */
+
+    .why-card {
+        min-height: 0;
+
+        padding: 24px 18px 28px;
+
+        border: 0 !important;
+        border-top: 1px solid var(--border) !important;
+        border-right: 1px solid var(--border) !important;
+    }
+
+    .why-card:nth-child(2n) {
+        border-right: 0 !important;
+    }
+
+    .why-card:nth-child(1),
+    .why-card:nth-child(2) {
+        border-top: 1px solid var(--border) !important;
+    }
+
+
+    /* Icons */
+
+    .why-card-icon {
+        width: 48px;
+        height: 48px;
+
+        margin-bottom: 20px;
+    }
+
+    .why-card-icon svg {
+        width: 21px;
+        height: 21px;
+    }
+
+
+    /* Numbers */
+
+    .why-card-number {
+        margin-bottom: 8px;
+
+        font-size: 9px;
+    }
+
+
+    /* Titles */
+
+    .why-card h3 {
+        margin-bottom: 9px;
+
+        font-size: 17px;
+    }
+
+
+    /* Text */
+
+    .why-card p {
+        max-width: none;
+
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 420px) {
+
+    .why-us {
+        padding: 64px 0;
+    }
+
+    .why-us .container {
+        padding: 0 16px;
+    }
+
+    .why-us-header h2 {
+        font-size: 31px;
+    }
+
+    .why-us-header p {
+        font-size: 14px;
+    }
+
+    .why-card {
+        padding: 22px 15px 25px;
+    }
+
+    .why-card h3 {
+        font-size: 16px;
+    }
+
+    .why-card p {
+        font-size: 12.5px;
+    }
+
+}
 
 /* =========================================================
    REDUCED MOTION
