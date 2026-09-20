@@ -2001,7 +2001,7 @@ ul {
     .why-card,
     .why-card:first-child,
     .why-card:last-child {
-        padding: 25px 0;
+        padding: 25px 20px;
 
         border-right: 0;
 
